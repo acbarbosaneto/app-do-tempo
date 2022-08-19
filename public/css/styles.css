@@ -61,7 +61,6 @@ form{
     display:flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
     top:80px;
     text-align: center
 }
