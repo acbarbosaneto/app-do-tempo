@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-image: linear-gradient(#2e90c9,#1820c0);
+   /* background-image: url(./images/sl_031821_41530_03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;*/
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    display:flex;
+    width:40%;
+    height:30%;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+    gap:3rem;
+
+}
+.btn{
+    width:100px;
+    background-color: #2e90c9;
+    box-shadow: 0 8px 6px -7px black;
+    text-align: center;
+    padding:10px;
+    border-radius: 3px;
+    color:#FFF;
+    border:1px solid #ffffff;
+    margin-top:4rem;
+    }
+.btn:hover{
+    background-color: #1820c0;
+}
+
+
+.title{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:80px;
+}
+.title2{
+    font-size: 4rem;
+    color:#FFF;
+}
+.title i{
+    font-size:6rem;
+    color:#FFF;
+}
+
+h1{
+    font-size:4rem;
+    text-align: center;
+    color:#FFF;
+}
+.input{
+    display:flex;
+    height: 4rem;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#fff;
+    border-radius:1rem;
+    padding:0.2rem;
+    box-shadow: 0 8px 6px -7px black;
+    cursor:pointer;
+}
+.input label{
+    background-color:#fff;
+    font-size:2rem;
+    margin:0 1rem 0 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color:#1820c0;
+    cursor:pointer;
+}
+
+.input i{
+    background-color:#fff;
+    color:#1820c0;
+    margin-right:5%;
+    font-size:2rem;
+    text-align: center;
+    border: none;
+    margin:0 1rem 0 1rem;
+}
+.input input{
+    width:60%;
+    border:none;
+    height:2rem;
+    justify-content: center;
+    font-size:2rem;
+    color:#2e90c9;
+    text-align: center;
+}
+form button{
+    color:#ffffff;
+    width:40%;
+    padding:1rem;
+    background-color: #2e90c9;
+    font-size:1.5rem;
+    border-radius:1rem;
+    border:1px solid #ffffff;
+    cursor:pointer;
+}
+form button:hover{
+    color:#ffffff;
+    background-color: #1820c0;
+
+}
+.description{
+    font-size:2rem;
+    color:#FFF;
+    text-align: center;
+}
