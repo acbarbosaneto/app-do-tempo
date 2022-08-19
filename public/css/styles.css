@@ -48,7 +48,6 @@ form{
     padding:20px 10px;
     border-radius: 3px;
     border:1px solid #ffffff;
-    margin:20px auto 10px;
     }
 .btn:hover{
     background-color: #1820c0;
@@ -82,13 +81,14 @@ form{
 .input{
     display:flex;
     width: 350px;
-    height:45px;
+    height:50px;
     justify-content:space-between;
     align-items: center;
     background-color:#fff;
     border-radius:6px;
     box-shadow: 0 8px 6px -7px black;
     cursor:pointer;
+    margin-bottom: 10px;
 }
 .input label{
     background-color:#fff;
@@ -120,7 +120,8 @@ form{
 .description{
     font-size:28px;
     text-align: center;
-    width:400px;
+    width:350px;
+    margin-bottom: 10px;
 }
 
 .output{
