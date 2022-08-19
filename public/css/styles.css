@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    text-align: center;
+    color:#FFF;
 }
 a{
     text-decoration: none;
@@ -46,7 +48,6 @@ form{
     text-align: center;
     padding:10px;
     border-radius: 3px;
-    color:#FFF;
     border:1px solid #ffffff;
     margin-top:4rem;
     }
@@ -56,31 +57,33 @@ form{
 
 
 .title{
-    width:60%;
+    width:500px;
     display:flex;
     justify-content: center;
     align-items: center;
     position:absolute;
     top:80px;
+    margin:1rem 2rem;
 }
 .title2{
     font-size: 4rem;
-    color:#FFF;
 }
 .title i{
     font-size:6rem;
-    color:#FFF;
 }
 
 h1{
     font-size:4rem;
     text-align: center;
-    color:#FFF;
+}
+
+form{
+    width:40%;
 }
 .input{
     display:flex;
     height: 4rem;
-    width: 100%;
+    width: 400px;
     justify-content:space-around;
     align-items: center;
     background-color:#fff;
@@ -120,22 +123,24 @@ h1{
     text-align: center;
 }
 form button{
-    color:#ffffff;
-    width:40%;
+    width:200px;
     padding:1rem;
     background-color: #2e90c9;
     font-size:1.5rem;
     border-radius:1rem;
-    border:1px solid #ffffff;
+    border:1px solid;
     cursor:pointer;
 }
 form button:hover{
-    color:#ffffff;
     background-color: #1820c0;
 
 }
 .description{
     font-size:2rem;
-    color:#FFF;
     text-align: center;
+    width:500px;
+}
+
+.output{
+    font-size:2rem;
 }
