@@ -62,7 +62,8 @@ form{
     justify-content: center;
     align-items: center;
     top:80px;
-    text-align: center
+    text-align: center;
+    margin:0 auto;
 }
 .title2{
     font-size: 4rem;
@@ -74,6 +75,7 @@ form{
 
 form{
     width:40%;
+    margin:0 auto;
 }
 .input{
     display:flex;
