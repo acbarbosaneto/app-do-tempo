@@ -80,7 +80,6 @@ form{
 }
 .input{
     display:flex;
-    height: 4rem;
     width: 400px;
     justify-content:space-around;
     align-items: center;
@@ -107,7 +106,7 @@ form{
     font-size:2rem;
     text-align: center;
     border: none;
-    margin:0 1rem 0 1rem;
+    margin:0 1rem;
 }
 .input input{
     width:60%;
@@ -126,6 +125,7 @@ form button{
     border-radius:1rem;
     border:1px solid;
     cursor:pointer;
+    text-align: center;
 }
 form button:hover{
     background-color: #1820c0;
