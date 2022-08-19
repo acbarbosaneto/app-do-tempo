@@ -88,7 +88,7 @@ form{
     border-radius:6px;
     box-shadow: 0 8px 6px -7px black;
     cursor:pointer;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 .input label{
     background-color:#fff;
@@ -121,7 +121,6 @@ form{
     font-size:28px;
     text-align: center;
     width:350px;
-    margin-bottom: 10px;
 }
 
 .output{
