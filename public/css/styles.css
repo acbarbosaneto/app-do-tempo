@@ -124,33 +124,3 @@ form{
 .output{
     font-size:2rem;
 }
-
-@media (max-width: 787px)
-{
-    .title{
-        font-size: 1.5rem;
-        width:90%;
-        top:140px;
-    }
-    .title i{
-        font-size:4rem;
-    }
-    form{
-        width:90%;
-    }
-    .description{
-        width:100%;
-        margin-top: 20px;
-    }
-    .input{
-        width:350px;
-        height:50px;
-        margin-top: 20px;
-    }
-    .btn{
-        margin-top: 20px;
-    }
-    .title2{
-        margin-top: 20px;
-    }
-}
