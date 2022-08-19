@@ -83,7 +83,7 @@ form{
     align-items: center;
     background-color:#fff;
     border-radius:1rem;
-    padding:0.2rem;
+    padding:5px;
     box-shadow: 0 8px 6px -7px black;
     cursor:pointer;
 }
@@ -118,7 +118,7 @@ form{
 form button{
     width:200px;
     height:70px;
-    padding:1rem;
+    padding:10px;
     background-color: #2e90c9;
     font-size:1.5rem;
     border-radius:1rem;
