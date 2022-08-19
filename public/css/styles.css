@@ -56,13 +56,14 @@ form{
 
 
 .title{
-    font-size:3rem;
+    font-size:2.5rem;
     width:70%;
     display:flex;
     justify-content: center;
     align-items: center;
     position:absolute;
     top:80px;
+    text-align: center
 }
 .title2{
     font-size: 4rem;
@@ -71,9 +72,6 @@ form{
     font-size:6rem;
 }
 
-h1 {
-    text-align: center;
-}
 
 form{
     width:40%;
@@ -81,6 +79,7 @@ form{
 .input{
     display:flex;
     width: 400px;
+    height:45px;
     justify-content:space-around;
     align-items: center;
     background-color:#fff;
@@ -119,6 +118,7 @@ form{
 }
 form button{
     width:200px;
+    height:70px;
     padding:1rem;
     background-color: #2e90c9;
     font-size:1.5rem;
@@ -141,7 +141,7 @@ form button:hover{
     font-size:2rem;
 }
 
-@media (max-width: 715px)
+@media (max-width: 787px)
 {
     .title{
         font-size: 1.5rem;
