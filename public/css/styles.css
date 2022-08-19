@@ -110,9 +110,9 @@ form{
 .input input{
     width:70%;
     border:none;
-    height:2rem;
+    height:48px;
     justify-content: center;
-    font-size:2rem;
+    font-size:28px;
     color:#2e90c9;
     text-align: center;
 }
