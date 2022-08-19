@@ -38,7 +38,6 @@ form{
     align-items:center;
     margin-bottom: 8rem;
     margin-top: 4rem;
-    gap:3rem;
 
 }
 .btn{
@@ -49,7 +48,7 @@ form{
     padding:10px;
     border-radius: 3px;
     border:1px solid #ffffff;
-    margin-top:4rem;
+    margin-top:20px;
     }
 .btn:hover{
     background-color: #1820c0;
@@ -57,13 +56,13 @@ form{
 
 
 .title{
-    width:500px;
+    font-size:3rem;
+    width:70%;
     display:flex;
     justify-content: center;
     align-items: center;
     position:absolute;
     top:80px;
-    margin:1rem 2rem;
 }
 .title2{
     font-size: 4rem;
@@ -72,8 +71,7 @@ form{
     font-size:6rem;
 }
 
-h1{
-    font-size:4rem;
+h1 {
     text-align: center;
 }
 
@@ -97,8 +95,6 @@ form{
     font-size:2rem;
     margin:0 1rem 0 1rem;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     border: none;
     color:#1820c0;
     cursor:pointer;
@@ -143,4 +139,36 @@ form button:hover{
 
 .output{
     font-size:2rem;
+}
+
+@media (max-width: 715px)
+{
+    .title{
+        font-size: 1.5rem;
+        width:90%;
+        top:140px;
+    }
+    .title i{
+        font-size:4rem;
+    }
+    form{
+        width:90%;
+    }
+    .description{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .input{
+        width:90%;
+        margin-top: 2rem;;
+    }
+    form button{
+    margin-top: 2rem;
+    }
+    .btn{
+    margin-top: 2rem;
+    }
+    .title2{
+        margin-top: 2rem;
+    }
 }
