@@ -8,7 +8,11 @@ const app = express()
 let cityName=""
 let tempNum = "";
 let tempIcon = "";
-let imageURL = "http://openweathermap.org/img/wn/"+ tempIcon + "@2x.png"
+let description = "";
+let feelsLike = "";
+const date = new Date()
+const year = date.getFullYear();
+
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
@@ -16,16 +20,16 @@ app.set('view engine', 'ejs')
 
 
 app.get("/", function(req, res){
-    res.render('home')
+    res.render('home',{year:year})
 })
 
 
 app.get("/query", (req,res) =>{
-    res.render('query',{tempNum:tempNum, imageURL:imageURL, cityName:cityName})
+    res.render('query',{tempNum:tempNum, tempIcon:tempIcon, cityName:cityName,description:description, feelsLike:feelsLike, year:year})
 })
 
 app.get("/error", (req,res) =>{
-    res.render('error')
+    res.render('error',{year:year})
 })
 
 
@@ -39,10 +43,13 @@ app.post("/", function(req, res){
         if(response.statusCode===200){
         response.on("data", function(data){
             const dataTempo = JSON.parse(data)
-            cityName = city
+            console.log(dataTempo)
+            cityName = city + ", " + dataTempo.sys.country
             tempNum = dataTempo.main.temp
-            tempIcon = dataTempo.weather[0].icon  
-            imageURL = "http://openweathermap.org/img/wn/"+ tempIcon + "@2x.png"  
+            description = dataTempo.weather[0].description
+            feelsLike = dataTempo.main.feels_like
+            tempIcon = "../images/" + dataTempo.weather[0].icon  + ".svg"
+            console.log(tempIcon)
             res.redirect("/query")   
         })
         }else{

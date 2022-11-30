@@ -1,13 +1,14 @@
 <%- include('partials/header'); -%>
-
-<form action="/" method="post">
-    <div class="description"><em>Watch for current temperature and weather conditions in any city.</em></div>
-    <div class="input">
-        <label for="cidade">City:</label>
-        <input type="text" id="cidade" name="cityName">
-        <label for="cidade"><i class="uil uil-search-alt"></i></label>
-    </div>
-    <button type="submit" class="btn">Search</button>
-</form>
+<div class="container">
+    <p><em>Watch for current temperature and weather conditions in any city.</em></p>
+    <form action="/" method="post">
+        <div class="input-container">
+            <label for="cidade">City:</label>
+            <input type="text" id="cidade" name="cityName">
+            <label for="cidade"><i class="uil uil-search-alt"></i></label>
+        </div>
+        <button type="submit" class="btn">Search</button>
+    </form>
+</div>
 
 <%- include('partials/footer'); -%>
