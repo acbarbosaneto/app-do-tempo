@@ -48,10 +48,10 @@ p{
     align-items: center;
     width:80%;
     max-width: 500px;
-    height:300px;
+    padding:50px 0;
     background-color: #ffffff;
     margin:0 auto;
-    padding: 50px 0;
+
     border-radius: 5px;
 }
 .row{
