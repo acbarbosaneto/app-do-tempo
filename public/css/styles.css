@@ -48,6 +48,7 @@ p{
     align-items: center;
     width:80%;
     max-width: 500px;
+    min-height: 325px;
     padding:50px 0;
     background-color: #ffffff;
     margin:0 auto;
