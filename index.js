@@ -15,7 +15,7 @@ const year = date.getFullYear();
 
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(__dirname + "/public/");
+app.use(express.static(__dirname + "/public/"));
 app.set('view engine', 'ejs');
 
 
