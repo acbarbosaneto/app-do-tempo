@@ -20,7 +20,10 @@ app.set('view engine', 'ejs');
 
 
 app.get("/", function(req, res){
-    res.render('home',{year:year})
+    try{res.render('home',{year:year})}
+    catch(error){
+        console.log(error);
+    }
 })
 
 
