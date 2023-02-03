@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Aplicativo que consome a API Open Weather.",
   "main": "index.js",
-  "engines": {
-    "node": "18.13.0",
-    "npm": "8.19.3"
-  },
   "scripts": {
     "start": "node index.js"
   },
